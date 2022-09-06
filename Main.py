@@ -10,7 +10,7 @@ class Stack:
 
   def push(self, data) -> None:
     # Write your code here
-    node = Node(value)  
+        node = Node(value)  
         if(self.head == None):   
             self.head = node
         else:
@@ -20,7 +20,7 @@ class Stack:
 
   def pop(self) -> None:
     # Write your code here
-     if(self.head == None):    
+        if(self.head == None):    
             return false
         else:
             node = self.head  
@@ -35,7 +35,7 @@ class Stack:
     It prints all the elements of stack.
     """
     # Write your code here  
-    if(self.head == None):    
+        if(self.head == None):    
             print('Empty..!')
         else:
             temp = self.head  
