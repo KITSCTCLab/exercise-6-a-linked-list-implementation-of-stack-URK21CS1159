@@ -21,13 +21,14 @@ class Stack:
   def pop(self) -> None:
     # Write your code here
      if(self.head == None):    
-            return None
+            return false
         else:
             node = self.head  
             self.head = node.next   
             node.next = None  
             value = node.value    
             del node   
+            return true
             
   def status(self):
     """
