@@ -35,9 +35,9 @@ class Stack:
     It prints all the elements of stack.
     """
     # Write your code here  
-        if(self.head == None):    
+       if(self.head == None):    
             return false
-        else:
+       else:
             temp = self.head  
             while(temp != None):   
                 print(f'{temp.value}->',end = '')
