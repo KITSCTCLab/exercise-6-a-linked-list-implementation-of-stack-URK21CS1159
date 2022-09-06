@@ -36,7 +36,7 @@ class Stack:
     """
     # Write your code here  
         if(self.head == None):    
-            return None
+            return false
         else:
             temp = self.head  
             while(temp != None):   
