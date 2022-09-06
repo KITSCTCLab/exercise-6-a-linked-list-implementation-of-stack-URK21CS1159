@@ -10,7 +10,7 @@ class Stack:
 
   def push(self, data) -> None:
     # Write your code here
-        node = Node(value)  
+        node = Node(data)  
         if(self.head == None):   
             self.head = node
         else:
@@ -26,9 +26,9 @@ class Stack:
             node = self.head  
             self.head = node.next   
             node.next = None  
-            value = node.value    
+            data = node.value    
             del node   
-            return true
+            
             
   def status(self):
     """
@@ -36,7 +36,7 @@ class Stack:
     """
     # Write your code here  
         if(self.head == None):    
-            print('Empty..!')
+            return false
         else:
             temp = self.head  
             while(temp != None):   
